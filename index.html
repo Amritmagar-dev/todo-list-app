@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="resources/style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section class="large section-page">
+        <div class="firs-tag">
+            <h1>TODO APP</h1>
+            <h4>Manage all your tasks in one place</h4>
+        </div>
+        <div class="input-page-section">
+            <input type="text" id="taskInput" placeholder="Enter your task">
+            <select id="priority">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+        </div>
+        <div class="message-box">
+            <textarea id="taskDescription" placeholder="Enter your Description"></textarea>
+        </div>
+        <button id="addButton">ADD</button>
+        <ul id="taskList"></ul>
+    </section>
+</body>
+</html>

@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 206, 206);
+}
+
+.flix {
+    display: flex;
+}
+
+.large {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section-page {
+    background-color: rgb(247, 238, 235);
+    border-radius: 6px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.firs-tag {
+    background-color: rgb(31, 31, 202);
+    color: white;
+    border-radius: 6px 6px 0 0;
+    text-align: center;
+    padding-top: 18px;
+    height: 70px;
+}
+
+.firs-tag h1, .firs-tag h4 {
+    margin: 5px;
+}
+
+.input-page-section {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.input-page-section input {
+    height: 23px;
+    border: 1px solid rgb(190, 182, 182);
+    border-radius: 4px;
+    width: 250px;
+    transition: border-color 0.3s;
+}
+
+.input-page-section input:focus {
+    border-color: aqua;
+    outline: none;
+}
+
+#priority {
+    width: 250px;
+    border: 1px solid rgb(190, 182, 182);
+    height: 27px;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+#priority:focus {
+    border-color: aqua;
+    outline: none;
+}
+
+.message-box {
+    padding-top: 10px;
+    padding-left: 48px;
+}
+
+.message-box textarea {
+    width: 500px;
+    resize: none;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 18px;
+    padding-top: 6px;
+    transition: border-color 0.3s;
+}
+
+.message-box textarea:focus {
+    border-color: aqua;
+    outline: none;
+}
+
+button {
+    margin-left: 48px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(31, 31, 202);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: white;
+    border: 1px solid rgb(190, 182, 182);
+    border-radius: 4px;
+    margin: 10px 48px;
+    padding: 10px;
+    position: relative;
+}
+
+#taskList li button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: rgb(31, 31, 202);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#taskList li button:hover{
+    background-color: red;
+    color: white;
+}
